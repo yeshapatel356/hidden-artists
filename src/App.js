@@ -1,20 +1,12 @@
 import React from "react";
 
 import "./App.css";
+import Application from "./components/Application/index";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://www.facebook.com/Hiddenartist5"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hidden Artists
-        </a>
-      </header>
+      <Application />
     </div>
   );
 }
